@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import codes.acmc.picapp.ui.main.QuestionnaireFragment;
+import codes.acmc.picapp.ui.questionnaire.QuestionnaireFragment;
 
 public class QuestionnaireActivity extends AppCompatActivity {
 
@@ -14,7 +14,7 @@ public class QuestionnaireActivity extends AppCompatActivity {
         setContentView(R.layout.questionnaire_activity);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.container, QuestionnaireFragment.newInstance())
+                    .replace(R.id.questionnaire_container, QuestionnaireFragment.newInstance())
                     .commitNow();
         }
     }

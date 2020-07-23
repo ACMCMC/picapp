@@ -1,4 +1,4 @@
-package codes.acmc.picapp.ui.main;
+package codes.acmc.picapp.ui.questionnaire;
 
 import androidx.lifecycle.ViewModelProviders;
 
@@ -16,7 +16,7 @@ import codes.acmc.picapp.R;
 
 public class QuestionnaireFragment extends Fragment {
 
-    private MainViewModel mViewModel;
+    private QuestionnaireViewModel mViewModel;
 
     public static QuestionnaireFragment newInstance() {
         return new QuestionnaireFragment();
@@ -32,7 +32,7 @@ public class QuestionnaireFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
+        mViewModel = ViewModelProviders.of(this).get(QuestionnaireViewModel.class);
         // TODO: Use the ViewModel
     }
 

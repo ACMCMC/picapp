@@ -3,11 +3,19 @@
     <style name="Button" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:textColor">@color/foreground</item>
         <item name="android:strokeColor">@color/foreground</item>
+        <item name="android:strokeWidth">20.0</item>
+        <item name="android:textAllCaps">false</item>
     </style>
 
     <style name="TextHeadline1" parent="TextAppearance.MaterialComponents.Headline1">
         <item name="fontFamily">@font/rubik_bold</item>
         <item name="android:textSize">48sp</item>
-        <item name="android:textColor">@color/blueSaturated</item>
+        <item name="android:textColor">@color/foreground</item>
+    </style>
+
+    <style name="TextHeadline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/rubik</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/foreground</item>
     </style>
 </resources>

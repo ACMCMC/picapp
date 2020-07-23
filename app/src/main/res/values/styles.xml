@@ -11,14 +11,19 @@
 
     <style name="Button" parent="Widget.MaterialComponents.Button">
         <item name="android:fontFamily">@font/rubik</item>
-        <item name="android:elevation">0dp</item>
         <item name="android:tint">@color/blueSaturated</item>
-        <item name="android:textSize">56sp</item>
+        <item name="android:textAllCaps">false</item>
     </style>
 
     <style name="TextHeadline1" parent="TextAppearance.MaterialComponents.Headline1">
         <item name="fontFamily">@font/rubik_bold</item>
         <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@color/blueDark</item>
+    </style>
+
+    <style name="TextHeadline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/rubik</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/blueDark</item>
     </style>
 

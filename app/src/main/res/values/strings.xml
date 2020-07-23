@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">PicApp</string>
+    <string name="button_start">Start</string>
+    <string name="app_intro">The app for insect bites</string>
+</resources>

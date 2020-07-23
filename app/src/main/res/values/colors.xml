@@ -6,4 +6,5 @@
     <color name="redAccent">#FF3056</color>
     <color name="foreground">#000000</color>
     <color name="background">#FFFFFF</color>
+    <color name="grey">#777777</color>
 </resources>

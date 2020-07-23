@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Button" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/foreground</item>
+        <item name="android:strokeColor">@color/foreground</item>
+    </style>
+
+    <style name="TextHeadline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/rubik_bold</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@color/blueSaturated</item>
+    </style>
+</resources>

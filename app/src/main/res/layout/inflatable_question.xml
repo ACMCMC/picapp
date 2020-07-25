@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:paddingTop="24dp"
+    android:paddingBottom="24dp"
+    android:textAlignment="textStart"
+    android:paddingStart="32dp"
+    style="@style/Secondary_button"></Button>

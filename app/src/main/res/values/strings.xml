@@ -2,4 +2,7 @@
     <string name="app_name" translatable="false">PicApp</string>
     <string name="button_start">Start</string>
     <string name="app_intro">The app for insect bites</string>
+    <string name="button_next">Next</string>
+    <string name="button_back">Back</string>
+    <string name="questionnaire">Questionnaire</string>
 </resources>

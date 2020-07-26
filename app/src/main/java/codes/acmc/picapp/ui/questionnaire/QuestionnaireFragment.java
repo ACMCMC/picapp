@@ -3,11 +3,13 @@ package codes.acmc.picapp.ui.questionnaire;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
+import androidx.core.graphics.ColorUtils;
 import androidx.core.view.ViewPropertyAnimatorCompat;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.animation.ValueAnimator;
 import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.RippleDrawable;
@@ -34,6 +36,8 @@ import org.w3c.dom.Text;
 import java.lang.reflect.Field;
 
 import codes.acmc.picapp.R;
+
+import static androidx.core.content.ContextCompat.getColor;
 
 public class QuestionnaireFragment extends Fragment {
 
@@ -78,8 +82,8 @@ public class QuestionnaireFragment extends Fragment {
             public boolean onTouch(final View view, MotionEvent motionEvent) {
                 if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
                     int initial_color;
-                    ((RippleDrawable) view.getBackground()).getConstantState().;
-                    ValueAnimator animator = ValueAnimator.ofArgb(initial_color, ContextCompat.getColor(view.getContext(), R.color.blueLight)).setDuration(2000);
+
+                    ValueAnimator animator = ValueAnimator.ofArgb(ColorUtils.setAlphaComponent(ContextCompat.getColor(view.getContext(), R.color.blueLight), 0), ContextCompat.getColor(view.getContext(), R.color.blueLight)).setDuration(300);
                     animator.setInterpolator(new AccelerateDecelerateInterpolator());
                     animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
                         @Override

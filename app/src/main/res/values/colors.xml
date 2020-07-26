@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="bluePrimary">#18AECC</color>
-    <color name="blueDark">#005F73</color>
-    <color name="blueSaturated">#00D4FF</color>
+    <color name="blueDark">#00838F</color>
+    <color name="blueSaturated">#00E5FF</color>
+    <color name="blueLight">#E0F7FA</color>
     <color name="redAccent">#FF3056</color>
     <color name="foreground">#000000</color>
     <color name="background">#FFFFFF</color>
-    <color name="grey">#777777</color>
+    <color name="grey">#999999</color>
 </resources>

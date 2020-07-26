@@ -33,9 +33,9 @@ public class QuestionnaireActivity extends AppCompatActivity {
         }
 
 
-        final ProgressBar progress = findViewById(R.id.progressBar);
+        /*final ProgressBar progress = findViewById(R.id.progressBar);
         progress.setMax(6);
-        progress.setInterpolator(new FastOutLinearInInterpolator());
+        progress.setInterpolator(new FastOutLinearInInterpolator());*/
 
         findViewById(R.id.next_button).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,14 +44,14 @@ public class QuestionnaireActivity extends AppCompatActivity {
             }
         });
 
-        ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
+        /*ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
         executor.scheduleAtFixedRate(new Runnable() {
             @Override
             public void run() {
                 progress.setProgress(progress.getProgress() == progress.getMax() ? 0 : progress.getProgress() + 1);
             }
         },
-                0L, 1L, TimeUnit.SECONDS);
+                0L, 1L, TimeUnit.SECONDS);*/
 
     }
 }
